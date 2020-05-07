@@ -1,9 +1,4 @@
 <!DOCTYPE HTML>
-<!--
-	Dimension by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
 		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -18,6 +13,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/custom.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
@@ -40,9 +36,10 @@
 						<nav>
 							<ul>
 								<li><a href="#intro">Intro</a></li>
-								<li><a href="portfolio/artwork.html">Artwork</a></li>
-								<li><a href="portfolio/photos.html">Photos</a></li>
-								<li><a href="#contact">Contact</a></li>
+								<li><a href="portfolio/artwork.html" style="padding-right: 2.5rem; padding-left: 2.5rem;">Artwork</a></li>
+								<li><a href="portfolio/photos.html">Photography</a></li>
+								<li><a href="https://www.instagram.com/channieats/" target="_blank">Food</a></li>
+								<!-- <li><a href="#contact">Contact</a></li> -->
 								<!--<li><a href="#elements">Elements</a></li>-->
 							</ul>
 						</nav>
@@ -55,13 +52,13 @@
 							<article id="intro">
 								<h2 class="major">Intro</h2>
 								<span class="image main"><img src="images/artpic1.jpeg" alt="" /></span>
-								<p>Chanelle Chow is currently a third-year student at The University of British Columbia studying Biology. She has always been fascinated by Art and Science and had a hard time deciding which field to study in when entering university.  However, she decided to pursue both interests by studying Biology at school and painting in her free time.
+								<p>Chanelle Chow is currently a fourth-year student at The University of British Columbia studying Biology. She has always been fascinated by Art and Science and was split between the two fields when entering university. However, she decided to pursue both interests by studying Biology at school and painting in her free time. 
 								</p>
-								<p>She has a passion for painting and has been studying traditional Chinese Brush Painting for over 13 years. She also has a passion for teaching. She is an assistant instructor of Chinese Brush Painting classes at Shadbolt Centre for the Arts and has also been a tutor in Math and Science for over three years. She is the founder of her tutoring company in Vancouver, the Learn Now Agency.</p>
+								<p>She has a passion for watercolour and acrylic painting and has been studying traditional Chinese Brush Painting for over 14 years. She also has an interest in photography and runs a food blog. She also enjoys teaching and is an assistant instructor of Chinese Brush Painting classes at Shadbolt Centre for the Arts and has also been a tutor in Math and Science for over four years. She is the founder of her tutoring company in Vancouver, <a href="https://theedifyagency.com/" target="_blank">The Edify Agency</a>.</p>
 								<p>Chanelle is currently open for commissions and you can send her a message through email.</p>
-								<form action="#contact">
-									<input type="submit" value="Contact">
-								</form>
+								
+								<a class="pull-left" href="https://theedifyagency.com/" target="_blank"><button>The Edify Agency</button></a>
+								<a class="pull-right" href="#contact"><button class="special">Contact</button></a>
 							</article>
 
 						<!-- Contact -->
@@ -115,9 +112,9 @@
 									<pre><code>i = 0;
 
 while (!deck.isInOrder()) {
-    print 'Iteration ' + i;
-    deck.shuffle();
-    i++;
+		print 'Iteration ' + i;
+		deck.shuffle();
+		i++;
 }
 
 print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
